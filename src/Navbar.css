@@ -1,0 +1,34 @@
+.nav {
+    position: fixed; /* sticky */
+    top: 0;
+    width: 100%;
+    padding: 10px; /* works for top and bottom
+    because i have set its content fixed also
+    with left and right position */
+    height: 20px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav_black {
+    background-color: #111;
+}
+
+.nav_logo {
+    position: fixed;
+    left: 20px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.nav_avatar {
+    position: fixed;
+    right: 20px;
+    width: 20px;
+    object-fit: contain;
+}
